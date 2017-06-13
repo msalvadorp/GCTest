@@ -1,0 +1,6 @@
+C:\Users\Miguel\Documents\Visual Studio 2013\Projects\SolComercioParte1\Problema2\bin\Debug\Problema2.exe.config
+C:\Users\Miguel\Documents\Visual Studio 2013\Projects\SolComercioParte1\Problema2\bin\Debug\Problema2.exe
+C:\Users\Miguel\Documents\Visual Studio 2013\Projects\SolComercioParte1\Problema2\bin\Debug\Problema2.pdb
+C:\Users\Miguel\Documents\Visual Studio 2013\Projects\SolComercioParte1\Problema2\obj\Debug\Problema2.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Visual Studio 2013\Projects\SolComercioParte1\Problema2\obj\Debug\Problema2.exe
+C:\Users\Miguel\Documents\Visual Studio 2013\Projects\SolComercioParte1\Problema2\obj\Debug\Problema2.pdb
