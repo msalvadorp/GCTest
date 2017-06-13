@@ -1,0 +1,120 @@
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\ClienteMVC.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\ClienteMVC.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Antlr3.Runtime.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Newtonsoft.Json.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.Mvc.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.Optimization.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.Razor.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.WebPages.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\WebGrease.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Newtonsoft.Json.xml
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.Mvc.xml
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.Razor.xml
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.WebPages.xml
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\obj\Debug\ClienteMVC.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\obj\Debug\ClienteMVC.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\obj\Debug\ClienteMVC.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Entidades.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Negocio.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Utilitario.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\AccesoDatos.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Entidades.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Negocio.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\Utilitario.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\AccesoDatos.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\ClienteMVC\bin\ClienteMVC.dll.config
+D:\Msalvador\Comercio\ClienteMVC\obj\Debug\ClienteMVC.csprojResolveAssemblyReference.cache
+D:\Msalvador\Comercio\ClienteMVC\bin\ClienteMVC.dll.config
+D:\Msalvador\Comercio\ClienteMVC\bin\ClienteMVC.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\ClienteMVC.pdb
+D:\Msalvador\Comercio\ClienteMVC\bin\Antlr3.Runtime.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\Entidades.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\Negocio.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\Newtonsoft.Json.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Net.Http.Formatting.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.Http.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.Http.WebHost.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.Mvc.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.Optimization.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.Razor.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.WebPages.Deployment.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.WebPages.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.WebPages.Razor.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\Utilitario.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\WebGrease.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\AccesoDatos.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\Entidades.pdb
+D:\Msalvador\Comercio\ClienteMVC\bin\Negocio.pdb
+D:\Msalvador\Comercio\ClienteMVC\bin\Utilitario.pdb
+D:\Msalvador\Comercio\ClienteMVC\bin\Newtonsoft.Json.xml
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Net.Http.Formatting.xml
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.Http.xml
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.Http.WebHost.xml
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.Mvc.xml
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.Razor.xml
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.WebPages.xml
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.WebPages.Deployment.xml
+D:\Msalvador\Comercio\ClienteMVC\bin\System.Web.WebPages.Razor.xml
+D:\Msalvador\Comercio\ClienteMVC\bin\AccesoDatos.pdb
+D:\Msalvador\Comercio\ClienteMVC\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\es\System.Web.Http.resources.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\es\System.Web.Mvc.resources.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\es\System.Web.Optimization.resources.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\es\System.Web.Razor.resources.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\es\System.Web.WebPages.resources.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Msalvador\Comercio\ClienteMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Msalvador\Comercio\ClienteMVC\obj\Debug\ClienteMVC.dll
+D:\Msalvador\Comercio\ClienteMVC\obj\Debug\ClienteMVC.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\ClienteMVC.dll.config
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\ClienteMVC.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\ClienteMVC.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Antlr3.Runtime.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Entidades.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Negocio.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Newtonsoft.Json.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.Mvc.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.Optimization.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.Razor.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.WebPages.Deployment.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.WebPages.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.WebPages.Razor.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Utilitario.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\WebGrease.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\AccesoDatos.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Entidades.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Negocio.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Utilitario.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\Newtonsoft.Json.xml
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.Mvc.xml
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.Razor.xml
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.WebPages.xml
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.WebPages.Deployment.xml
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\System.Web.WebPages.Razor.xml
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\AccesoDatos.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\es\System.Web.Mvc.resources.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\es\System.Web.Razor.resources.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\es\System.Web.WebPages.resources.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\obj\Debug\ClienteMVC.csprojResolveAssemblyReference.cache
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\obj\Debug\ClienteMVC.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\ClienteMVC\obj\Debug\ClienteMVC.pdb
