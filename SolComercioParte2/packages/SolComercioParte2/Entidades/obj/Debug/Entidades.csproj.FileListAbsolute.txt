@@ -1,0 +1,15 @@
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Entidades\bin\Debug\Entidades.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Entidades\obj\Debug\Entidades.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Msalvador\Comercio\Entidades\bin\Debug\Entidades.dll
+D:\Msalvador\Comercio\Entidades\bin\Debug\Entidades.pdb
+D:\Msalvador\Comercio\Entidades\obj\Debug\Entidades.dll
+D:\Msalvador\Comercio\Entidades\obj\Debug\Entidades.pdb
+D:\Msalvador\Comercio\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Entidades\bin\Debug\Entidades.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Entidades\bin\Debug\Entidades.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Entidades\obj\Debug\Entidades.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Entidades\obj\Debug\Entidades.pdb
