@@ -1,0 +1,31 @@
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Negocio\bin\Debug\Negocio.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Negocio\bin\Debug\AccesoDatos.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Negocio\bin\Debug\Entidades.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Negocio\bin\Debug\AccesoDatos.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Negocio\obj\Debug\Negocio.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Negocio\obj\Debug\Negocio.pdb
+D:\Msalvador\Comercio\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\Msalvador\Comercio\Negocio\bin\Debug\Negocio.dll
+D:\Msalvador\Comercio\Negocio\bin\Debug\Negocio.pdb
+D:\Msalvador\Comercio\Negocio\bin\Debug\AccesoDatos.dll
+D:\Msalvador\Comercio\Negocio\bin\Debug\Entidades.dll
+D:\Msalvador\Comercio\Negocio\bin\Debug\Utilitario.dll
+D:\Msalvador\Comercio\Negocio\bin\Debug\AccesoDatos.pdb
+D:\Msalvador\Comercio\Negocio\bin\Debug\Entidades.pdb
+D:\Msalvador\Comercio\Negocio\bin\Debug\Utilitario.pdb
+D:\Msalvador\Comercio\Negocio\obj\Debug\Negocio.dll
+D:\Msalvador\Comercio\Negocio\obj\Debug\Negocio.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\bin\Debug\Negocio.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\bin\Debug\Negocio.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\bin\Debug\AccesoDatos.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\bin\Debug\Entidades.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\bin\Debug\Utilitario.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\bin\Debug\AccesoDatos.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\bin\Debug\Entidades.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\bin\Debug\Utilitario.pdb
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\obj\Debug\Negocio.dll
+D:\Proyectos\Postulaciones\GrupoComercio\v2\Comercio\Negocio\obj\Debug\Negocio.pdb

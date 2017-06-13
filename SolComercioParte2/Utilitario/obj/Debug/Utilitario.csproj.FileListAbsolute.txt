@@ -1,0 +1,9 @@
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Utilitario\bin\Debug\Utilitario.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Utilitario\bin\Debug\Utilitario.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Utilitario\obj\Debug\Utilitario.dll
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Utilitario\obj\Debug\Utilitario.pdb
+C:\Users\Miguel\Documents\Visual Studio 2012\Projects\SolComercioParte2\Utilitario\obj\Debug\Utilitario.csprojResolveAssemblyReference.cache
+D:\Msalvador\Comercio\Utilitario\bin\Debug\Utilitario.dll
+D:\Msalvador\Comercio\Utilitario\bin\Debug\Utilitario.pdb
+D:\Msalvador\Comercio\Utilitario\obj\Debug\Utilitario.dll
+D:\Msalvador\Comercio\Utilitario\obj\Debug\Utilitario.pdb
