@@ -1,0 +1,68 @@
+﻿@using Entidades
+@model IEnumerable<OrdenPago>
+
+
+@{
+
+}
+
+
+<script>
+    $(window).on('load', function () {
+        $('.selectpicker').selectpicker();
+    });
+</script>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table id="tableMain" class="table table-striped table-bordered table-hover table-condensed">
+                <thead class="small">
+                    <tr class="text-center">
+                        <th class="col-md-1 text-center" scope="col">Codigo</th>
+                        <th class="col-md-1 text-center" scope="col">Fecha</th>
+                        <th class="col-md-3 text-center" scope="col">Sucursal</th>
+                        <th class="col-md-1 text-center" scope="col">Moneda</th>
+                        <th class="col-md-1 text-center" scope="col">Monto</th>
+                        <th class="col-md-1 text-center" scope="col">Situacion</th>
+                        <th class="col-md-1 text-center" scope="col">Acciones</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="text-center">@item.IdOrdenPago</td>
+                                <td class="text-center">@item.FechaPago.ToString("dd/MM/yyyy")</td>
+                                <td class="text-center">@item.NombreSucursalCompleta</td>
+                                <td class="text-center">@item.NombreMoneda</td>
+                                <td class="text-center">@item.Monto</td>
+                                <td class="text-center">@item.NombreSituacion</td>
+                                <td align="center">
+                                    <a class="btn btn-default btn-xs" title="Editar"
+                                            href="@Url.Action("Editar", "OrdenPago", new { IdOrdenPago = item.IdOrdenPago })">
+                                        <i class="glyphicon glyphicon-pencil"></i>
+                                    </a>
+
+
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7">No hay registros</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

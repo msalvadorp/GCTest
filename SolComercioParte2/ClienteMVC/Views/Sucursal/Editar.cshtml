@@ -1,0 +1,117 @@
+﻿@using Entidades
+@model Sucursal
+
+@{
+    ViewBag.Title = "Editar";
+
+    string mensajePlaceholder = "Datos Obligatorios";
+}
+
+@using (Html.BeginForm())
+{
+
+
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <div class="row form-horizontal">
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.IdSucursal, new { @class = "col-md-3 control-label" })
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(model => model.IdSucursal, new
+                       {
+                           @class = "form-control input-sm",
+                           @readonly = "readonly"
+                       })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row form-horizontal">
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.IdBanco, new { @class = "col-md-3 control-label" })
+                        <div class="col-md-9">
+                            @Html.DropDownListFor(m => m.IdBanco, new SelectList(ViewBag.ListaBanco, "IdBanco", "Nombre", 0), new { @data_width = "100%", @class = "selectpicker" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row form-horizontal">
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Nombre, new { @class = "col-md-3 control-label" })
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(model => model.Nombre, new
+                       {
+                           @class = "form-control input-sm",
+                           placeholder = mensajePlaceholder,
+                           @maxlength = "50"
+                       })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row form-horizontal">
+                <div class="col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <label for="uDireccionAplicacion" class="col-md-3 control-label">Dirección</label>
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(model => model.Direccion, new
+                       {
+                           @class = "form-control input-sm",
+                           placeholder = mensajePlaceholder,
+                           @maxlength = "50"
+                       })
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    @Html.HiddenFor(m => m.FlgEliminado)
+    @Html.HiddenFor(m => m.FechaRegistro)
+
+    if (!ViewData.ModelState.IsValid)
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row form-horizontal">
+                    <div class="col-sm-12 col-md-12 alert alert-warning alert-dismissible">
+                        <div class="form-group">
+                            <div class="col-sm-6 col-md-6">
+                                @Html.ValidationSummary(false, "Revisar los errrores")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row form-horizontal">
+                <div class="col-sm-12 col-md-12 btn-group">
+                    <button type="submit" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-search"></span>&nbsp;Grabar
+                    </button>
+                    <a href="@Url.Action("Index")" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>&nbsp;Regresar
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

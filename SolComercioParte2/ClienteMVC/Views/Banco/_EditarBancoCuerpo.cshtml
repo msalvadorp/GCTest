@@ -1,0 +1,86 @@
+﻿@using Entidades
+
+@model Banco
+
+@{
+
+    string mensajePlaceholder = "Datos Obligatorios";
+
+}
+
+<div class="row">
+
+    <div class="col-md-12">
+
+        <div class="row form-horizontal">
+            <div class="col-sm-12 col-md-12">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Nombre, new { @class = "col-md-3 control-label" })
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(model => model.Nombre, new
+                                                {
+                                                    @class = "form-control input-sm",
+                                                    placeholder = mensajePlaceholder,
+                                                    @maxlength = "50"
+                                                })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row form-horizontal">
+            <div class="col-sm-12 col-md-12">
+                <div class="form-group">
+                    <label for="uDireccionAplicacion" class="col-md-3 control-label">Dirección</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(model => model.Direccion, new
+                             {
+                                 @class = "form-control input-sm",
+                                 placeholder = mensajePlaceholder,
+                                 @maxlength = "50"
+                             })
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+@Html.HiddenFor(m => m.IdBanco)
+@Html.HiddenFor(m => m.FlgEliminado)
+@Html.HiddenFor(m => m.FechaRegistro)
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row form-horizontal">
+                <div class="col-sm-12 col-md-12 alert alert-warning alert-dismissible">
+                    <div class="form-group">
+                        <div class="col-sm-12 col-md-12">
+                            @Html.ValidationSummary(false, "Revisar los errrores")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@if (ViewData.ModelState.IsValid)
+{
+    @Html.Hidden("hdError", "0")
+}
+else
+{
+    @Html.Hidden("hdError", "-1")
+}
+
+
+
+
+
+

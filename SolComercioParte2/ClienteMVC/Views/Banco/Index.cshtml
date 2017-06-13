@@ -1,0 +1,133 @@
+﻿@using Entidades
+@model IEnumerable<Banco>
+
+@{
+    ViewBag.Title = "Bancos";
+}
+
+@using (Ajax.BeginForm(
+    "Index",
+    "Banco",
+    null,
+     new AjaxOptions
+     {
+         HttpMethod = "GET",
+         InsertionMode = InsertionMode.Replace,
+         UpdateTargetId = "SeccionListaBanco"
+     },
+    new { id = "frmBanco" }))
+{
+
+    <div class="panel-group" id="accordion">
+        <!-- PARAMETROS DE BUSQUEDA -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="text-left">
+                    <a data-toggle="collapse" href="#collapseDatos">
+                        <span class="indicador glyphicon glyphicon-chevron-up" aria-hidden="true"></span>  Parametros de Búsqueda
+                    </a>
+                </h5>
+            </div>
+        </div>
+        <div id="collapseDatos" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row form-horizontal">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="control-label col-md-1">Filtro</label>
+                                    <div class="col-md-11">
+                                        <div class="input-group">
+                                            <input type="text" id="txtFiltro" name="txtFiltro" class="form-control input-sm" placeholder="Ingrese parámetros de busqueda">
+                                            <span class="input-group-btn">
+
+                                                <button type="submit" class="btn btn-default btn-sm" id="btnBuscar" name="btnBuscar">
+                                                    <span class="glyphicon glyphicon-search"></span>&nbsp;Buscar
+                                                </button>
+                                                
+                                                <button type="button" class="btn btn-sm btn-primary modalGC"
+                                                        data-url="@Url.Action("Editar", "Banco")"
+                                                        value="Nuevo">
+                                                    <span class="glyphicon glyphicon-plus"></span>
+                                                    &nbsp;Nuevo
+                                                </button>
+                                                
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RESULTADOS -->
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="text-left">
+                    <a class="" data-toggle="collapse"
+                       href="#collapseOne">
+                        <span class="indicador glyphicon glyphicon-chevron-up" aria-hidden="true"></span>  Resultados de la Búsqueda
+                    </a>
+                </h5>
+            </div>
+
+            <!--  -->
+
+            <div style="height: auto;" id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <div class="row form-horizontal">
+                        <div class="col-md-12">
+                            <div id="SeccionListaBanco">
+                                @Html.Partial("_ListadoBanco", Model)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+
+        </div>
+    </div>
+}
+
+
+<script type="text/javascript">
+
+  
+
+    function CargarModal() {
+        $.get(globalRutaServidor + "Aplicacion/Editar",
+        {
+            //  IdSector: $("#IdSector").val()
+            IdGrupo: $("#IdGrupo").val()
+        }, function (data) {
+            $(".seccionModal").html(data);
+            $("#contenedor").modal("show");
+
+            $(".modal-content").draggable({
+                handle: ".modal-header",
+                cursor: "move"
+            });
+        });
+    }
+
+    function CerrarVentana() {
+        $("#contenedor").modal("hide");
+        $("#frmBanco").submit();
+    }
+
+    function toggleChevron(e) { $(e.target).prev('.panel-heading').find("span.indicador").toggleClass('glyphicon-chevron-down glyphicon-chevron-up') }
+    $('#accordion').on('shown.bs.collapse', toggleChevron);
+    $('#accordion').on('hidden.bs.collapse', toggleChevron);
+
+</script>
+
+
+

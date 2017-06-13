@@ -1,0 +1,110 @@
+﻿@using Entidades
+@model IEnumerable<Sucursal>
+
+@{
+    ViewBag.Title = "Sucursales";
+}
+
+@using (Ajax.BeginForm(
+                "Index",
+                "Sucursal",
+                null,
+                 new AjaxOptions
+                 {
+                     HttpMethod = "GET",
+                     InsertionMode = InsertionMode.Replace,
+                     UpdateTargetId = "SeccionListaSucursal"
+                 },
+                new { id = "frmSucursal" }))
+{
+
+    <div class="panel-group" id="accordion">
+        <!-- PARAMETROS DE BUSQUEDA -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="text-left">
+                    <a data-toggle="collapse" href="#collapseDatos">
+                        <span class="indicador glyphicon glyphicon-chevron-up" aria-hidden="true"></span>  Parametros de Búsqueda
+                    </a>
+                </h5>
+            </div>
+        </div>
+        <div id="collapseDatos" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row form-horizontal">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="control-label col-md-1">Filtro</label>
+                                    <div class="col-md-11">
+                                        <div class="input-group">
+                                            @Html.DropDownList("IdBancoPar", new SelectList(ViewBag.ListaBanco, "IdBanco", "Nombre", 0), new { @id = "IdBancoPar", @data_width = "100%", @class = "selectpicker" })
+                                            <span class="input-group-btn">
+
+                                                <button type="submit" class="btn btn-default btn-sm" id="btnBuscar" name="btnBuscar">
+                                                    <span class="glyphicon glyphicon-search"></span>&nbsp;Buscar
+                                                </button>
+
+                                                <a class="btn btn-sm btn-primary modalGC"
+                                                   href="@Url.Action("Editar", "Sucursal")"
+                                                   value="Nuevo">
+                                                    <span class="glyphicon glyphicon-plus"></span>
+                                                    &nbsp;Nuevo
+                                                </a>
+
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RESULTADOS -->
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h5 class="text-left">
+                    <a class="" data-toggle="collapse"
+                       href="#collapseOne">
+                        <span class="indicador glyphicon glyphicon-chevron-up" aria-hidden="true"></span>  Resultados de la Búsqueda
+                    </a>
+                </h5>
+            </div>
+
+            <!--  -->
+
+            <div style="height: auto;" id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <div class="row form-horizontal">
+                        <div class="col-md-12">
+                            <div id="SeccionListaSucursal">
+                                @Html.Partial("_ListadoSucursal", Model)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+}
+
+
+<script type="text/javascript">
+
+    function toggleChevron(e) { $(e.target).prev('.panel-heading').find("span.indicador").toggleClass('glyphicon-chevron-down glyphicon-chevron-up') }
+    $('#accordion').on('shown.bs.collapse', toggleChevron);
+    $('#accordion').on('hidden.bs.collapse', toggleChevron);
+
+    $(window).on('load', function () {
+        $('.selectpicker').selectpicker();
+    });
+</script>
+
+

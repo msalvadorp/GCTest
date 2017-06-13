@@ -1,0 +1,56 @@
+﻿@using Entidades
+@model IEnumerable<Sucursal>
+
+
+@{
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table id="tableMain" class="table table-striped table-bordered table-hover table-condensed">
+                <thead class="small">
+                    <tr class="text-center">
+                        <th class="col-md-1 text-center" scope="col">Codigo</th>
+                        <th class="col-md-3 text-center" scope="col">Nombre</th>
+                        <th class="col-md-3 text-center" scope="col">Direccion</th>
+                        <th class="col-md-3 text-center" scope="col">Banco</th>
+                        <th class="col-md-2 text-center" scope="col">Acciones</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        int contador = 0;
+                        foreach (var item in Model)
+                        {
+                            contador++;
+                            <tr id="@contador">
+                                <td class="text-center">@item.IdSucursal</td>
+                                <td class="text-center">@item.Nombre</td>
+                                <td class="text-center">@item.Direccion</td>
+                                <td class="text-center">@item.NombreBanco</td>
+                                <td align="center">
+                                    <a  class="btn btn-default btn-xs modalGC" title="Editar"
+                                            href="@Url.Action("Editar", "Sucursal", new { IdSucursal = item.IdSucursal })">
+                                        <i class="glyphicon glyphicon-pencil"></i>
+                                    </a>
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4">No hay registros</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

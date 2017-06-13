@@ -1,0 +1,64 @@
+﻿@using Entidades
+@model IEnumerable<Banco>
+
+
+@{
+}
+
+
+<script>
+    $(window).on('load', function () {
+        $('.selectpicker').selectpicker();
+    });
+</script>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="table-responsive">
+            <table id="tableMain" class="table table-striped table-bordered table-hover table-condensed">
+                <thead class="small">
+                    <tr class="text-center">
+                        <th class="col-md-1 text-center" scope="col">Codigo</th>
+                        <th class="col-md-3 text-center" scope="col">Nombre</th>
+                        <th class="col-md-3 text-center" scope="col">Direccion</th>
+                        <th class="col-md-2 text-center" scope="col">Acciones</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        int contador = 0;
+                        foreach (var item in Model)
+                        {
+                            contador++;
+                            <tr id="@contador">
+                                <td class="text-center">@item.IdBanco</td>
+                                <td class="text-center">@item.Nombre</td>
+                                <td class="text-center">@item.Direccion</td>
+
+                                <td align="center">
+                                    <button type="button" class="btn btn-default btn-xs modalGC" title="Editar"
+                                            data-url="@Url.Action("Editar", "Banco", new { IdBanco = item.IdBanco })">
+                                        <i class="glyphicon glyphicon-pencil"></i>
+                                    </button>
+
+                                    
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4">No hay registros</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
